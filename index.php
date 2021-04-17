@@ -376,11 +376,7 @@ $options = [];
 $smsGateway = new SmsGateway($token);
 $result = $smsGateway->sendMessageToNumber($phone_number, $message, $deviceID, $options);
 return $result; 
- 
 }
-
 ?>
-
-
 </body>
 </html>
