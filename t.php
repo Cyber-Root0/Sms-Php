@@ -383,7 +383,7 @@ echo "<br><center><h2>SMS Enviado Com Sucesso!</h2></center>";
 	
 }
 function EnviarSms($numero,$message){
-$token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhZG1pbiIsImlhdCI6MTYxMzgyNzYzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjg3MzQ1LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.ULRzys4-8XcNqgGVqO2_gknDyA5VLFxptBaB48Df0Fw";
+$token = "eyJ0eXAiOiJKV1QiLCJhYxMzgyNzYzMywiZXhwIjo0MTAyNDQ0ODAwLCJ1aWQiOjg3MzQ1LCJyb2xlcyI6WyJST0xFX1VTRVIiXX0.ULRzys4-8XcNqgGVqO2_gknDyA5VLFxptBaB48Df0Fw";
 $phone_number =$numero;
 $message = $message;
 $deviceID = 123145;
